@@ -7,9 +7,10 @@
 int main(void)
 {
 	int x =0;
-	for(int i=0;i<10;i++)
+	while(x<10)
 	{
 	printf("%d",x);
+	x++;
 	}
 	printf("\n");
 	return (0);
