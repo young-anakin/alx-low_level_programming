@@ -6,9 +6,10 @@
  */
 int main(void)
 {
+	int x =0;
 	for(int i=0;i<10;i++)
 	{
-	printf("%d",i);
+	printf("%d",x);
 	}
 	printf("\n");
 	return (0);
