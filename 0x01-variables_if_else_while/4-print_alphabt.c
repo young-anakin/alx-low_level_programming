@@ -15,9 +15,9 @@ int main(void)
 	putchar(x);
 	goto s;
 	}
-	s:
+s:
 	x++;
 	}
 	putchar('\n');
 return (0);
-}	
+}
