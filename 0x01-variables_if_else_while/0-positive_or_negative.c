@@ -23,5 +23,7 @@ int main(void)
 	{
 	printf("%d is zero ", n);
 	}
+	putchar('\n');
 	return (0);
+	
 }
