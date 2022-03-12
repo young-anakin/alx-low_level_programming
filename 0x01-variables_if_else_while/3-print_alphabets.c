@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	char x ='a';
+	char x = 'a';
 	char y = 'A';
-	
-	while(x <= 'z')
+
+	while (x <= 'z')
 	{
 	putchar(x);
 	x++;
@@ -20,5 +20,5 @@ int main(void)
 	y++;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
