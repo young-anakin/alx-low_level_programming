@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-	char x ='a';
+	char x = 'a';
+
 	while (x <= 'z')
 	{
-	while (x != 'q' && x!= 'e')
+	while (x != 'q' && x != 'e')
 	{
 	putchar(x);
 	goto s;
 	}
-s :
+	s:
 	x++;
 	}
 	putchar('\n');
 return (0);
-}
-	
+}	
