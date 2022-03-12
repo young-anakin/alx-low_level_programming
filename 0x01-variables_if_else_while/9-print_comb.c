@@ -7,15 +7,20 @@
 int main(void)
 {
 	int a = '0';
-	int b = '8';
+	int b = '9';
 
 	while (a <= b)
 	{
 	putchar(a);
+	while (a != '9')
+	{
 	putchar(',');
 	putchar(' ');
+	goto s;
+	}
+s:
 	a++;
 	}
-	putchar('9');
+	putchar('\n');
 	return (0);
 }
