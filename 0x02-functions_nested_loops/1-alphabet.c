@@ -4,7 +4,7 @@
  * print_alphabet - function
  * Return: Always 0.
  */
-void print_alphabet(void)
+void print_alphabet(void)// a description for print_alphabet
 {
 	char w = 'a';
 	int x = 0;
