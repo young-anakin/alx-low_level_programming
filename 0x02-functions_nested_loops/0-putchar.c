@@ -8,6 +8,13 @@
  */
 int main(void)
 {
-	_putchar('a');
+	char x[8] = "_putchar";
+	int i = 0;
+	while (i <= 7)
+	{
+	_putchar(x[i]);
+	i++;
+	}
+	_putchar('\n');
 	return (0);
 }
