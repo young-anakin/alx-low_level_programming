@@ -1,17 +1,17 @@
 #include "main.h"
 /**
  * _abs - Return absolute value of a number
- * @n: char type letter
+ * @:n int type number
  * Return: absolute value of the number
  */
-int _abs(int x)
+int _abs(int n)
 {
-	if (x >= 0)
+	if (n >= 0)
 	{
-		return (x);
+		return (n);
 	}
 	else
 	{
-		return (-x);
+		return (-n);
 	}
 }
