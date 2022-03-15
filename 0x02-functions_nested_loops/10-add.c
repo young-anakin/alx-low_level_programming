@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- *
+ * add : returns sum
  *
  * */
 int add(int num, int num2)
