@@ -1,16 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
- * main - Entry point
- * Return:0
+ * main - check the code.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	char x[8] = "_putchar";
-	int i = 0;
-	while (x != '\n')
-	{
-		_putchar(x[i]);
-	}
-	_putchar('\n');
+	_putchar('a');
 	return (0);
 }
