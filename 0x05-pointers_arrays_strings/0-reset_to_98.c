@@ -1,7 +1,8 @@
 #include "main.h"
-/* reset_to_98 - updates value of n to 98
- * the pointer n - supposed to reset value
- **/
+
+/**
+ * reset_to_98 - resets a value to 98
+ */
 void reset_to_98(int *n)
 {
 	*n = 98;
