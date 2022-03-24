@@ -1,2 +1,1 @@
-#!/bin/bash
-This is a read me for the sixth project
+This directory contains further exercises on pointers, arrays and strings
