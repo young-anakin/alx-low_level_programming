@@ -1,0 +1,1 @@
+This directory contains projrcts on singly linked lists
